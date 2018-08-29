@@ -33,14 +33,14 @@ ob_end_flush();
                             <thead>
                             <tr class="text-capitalize">
                                 <th>ID</th>
-                                <th>name</th>
+                                <th>Name</th>
                                 <th>action</th>
                             </tr>
                             </thead>
                             <tbody>
                             <?php foreach ($college as $key => $data) { ?>
                                 <tr>
-                                    <td><?= ++$key ?></td>
+                                    <td><?= $key ?></td>
                                     <td class="text-capitalize"><?= $data->name ?></td>
                                     <td>
                                         <a href="edit-college.php?cid=<?= $data->id ?>" class="font-icon"><i

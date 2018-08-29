@@ -55,9 +55,9 @@ ob_end_flush();
                                     <td><?= $data->regd_number ?></td>
                                     <td><?= $data->symbol_number ?></td>
                                     <td>
-                                        <a href="edit-college.php?cid=<?= $data->id ?>" class="font-icon"><i
+                                        <a href="edit-college.php?sid=<?= $data->id ?>" class="font-icon"><i
                                                     class="fa fa-edit"></i></a>
-                                        <a href="edit-college.php?cid=<?= $data->id ?>" class="font-icon color-green"><i
+                                        <a href="edit-college.php?sid=<?= $data->id ?>" class="font-icon color-green"><i
                                                     class="fa fa-remove"></i></a>
                                     </td>
                                 </tr>
