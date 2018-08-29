@@ -1,0 +1,64 @@
+.numbers p {
+    text-transform: capitalize;
+}
+
+form label {
+    text-transform: capitalize;
+}
+
+legend {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 15px;
+}
+
+.font-icon {
+    font-size: 20px;
+}
+.project-details .font-icon {
+    color: #fff;
+}
+
+
+.color-green {
+    color: #EB5E28;
+}
+
+.form-group {
+    margin: 0 !important;
+}
+
+form button {
+    text-transform: uppercase;
+    margin: 15px 15px 20px 0 !important;
+}
+
+small {
+    font-size: 20px !important;
+    font-weight: 800 !important;
+}
+
+/*data table css*/
+.dataTables_wrapper {
+    margin: 15px;
+}
+
+.dataTables_length select {
+    height: 35px;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    height: 35px;
+    border: 1px solid;
+}
+
+.dataTable thead {
+    font-size: 12px;
+}
+
+.pending{ background: #F3BB45 !important; color: #000}
+.working{ background: #64ABBF !important; color: #fff}
+.completed{ background: #7AC29A !important; color: #fff}
+.cancelled{ background: #EB5E28 !important; color: #fff}
